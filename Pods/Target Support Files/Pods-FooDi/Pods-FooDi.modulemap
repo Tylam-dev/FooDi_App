@@ -1,0 +1,6 @@
+framework module Pods_FooDi {
+  umbrella header "Pods-FooDi-umbrella.h"
+
+  export *
+  module * { export * }
+}
