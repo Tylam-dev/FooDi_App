@@ -8,7 +8,7 @@
 import UIKit
 
 class HomeController: UIViewController {
-
+    
     @IBOutlet weak var feedTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,7 @@ class HomeController: UIViewController {
     @IBAction func upLoadContentButton() {
     }
     @IBAction func profileButton() {
+        performSegue(withIdentifier: "ProfileSegue", sender: nil)
     }
     /*
     // MARK: - Navigation

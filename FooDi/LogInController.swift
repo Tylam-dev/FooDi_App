@@ -15,7 +15,7 @@ class LogInController: UIViewController {
     @IBOutlet weak var emailLogIn: UITextField!
     
     @IBOutlet weak var paswordLogIn: UITextField!
-    
+    let defaults = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
         emailLogIn.delegate = self
@@ -23,12 +23,16 @@ class LogInController: UIViewController {
         
         emailLogIn.returnKeyType = .done
         paswordLogIn.returnKeyType = .done
+        if let emailLogged = defaults.value(forKey: "email") as? String{
+            performSegue(withIdentifier: "HomeSegue", sender: nil)
+        }
         // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func logInButtonAction() {
         if let email = emailLogIn.text, let password = paswordLogIn.text {
             Auth.auth().signIn(withEmail: email, password: password){ (result, error) in
+                self.defaults.set(email, forKey: "email")
                 if let _ = result, error == nil {
                     self.performSegue(withIdentifier: "HomeSegue", sender: nil)
                 }else {

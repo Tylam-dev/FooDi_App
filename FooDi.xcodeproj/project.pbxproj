@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18CE0164CBBDCB6A5441BE09 /* Pods_FooDi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D442CC34E4D564C374EC9E48 /* Pods_FooDi.framework */; };
+		FFA3063D2B23699200975A44 /* AccountCreationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3063C2B23699200975A44 /* AccountCreationController.swift */; };
+		FFA3063F2B23DCB700975A44 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3063E2B23DCB700975A44 /* ProfileController.swift */; };
 		FFD442B12B1FC0BA0028F73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD442B02B1FC0BA0028F73A /* AppDelegate.swift */; };
 		FFD442B32B1FC0BA0028F73A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD442B22B1FC0BA0028F73A /* SceneDelegate.swift */; };
 		FFD442B52B1FC0BA0028F73A /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD442B42B1FC0BA0028F73A /* LogInController.swift */; };
@@ -26,6 +28,8 @@
 		042E3EB712747721B20671A1 /* Pods-FooDi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooDi.release.xcconfig"; path = "Target Support Files/Pods-FooDi/Pods-FooDi.release.xcconfig"; sourceTree = "<group>"; };
 		3EC7A9241C43C344CF4D62C7 /* Pods-FooDi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooDi.debug.xcconfig"; path = "Target Support Files/Pods-FooDi/Pods-FooDi.debug.xcconfig"; sourceTree = "<group>"; };
 		D442CC34E4D564C374EC9E48 /* Pods_FooDi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooDi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA3063C2B23699200975A44 /* AccountCreationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationController.swift; sourceTree = "<group>"; };
+		FFA3063E2B23DCB700975A44 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		FFD442AD2B1FC0BA0028F73A /* FooDi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FooDi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD442B02B1FC0BA0028F73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFD442B22B1FC0BA0028F73A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				FFD442DB2B210FB70028F73A /* Home.storyboard */,
 				FFD442DD2B2111080028F73A /* HomeController.swift */,
 				FFD442DF2B211FB50028F73A /* GoogleService-Info.plist */,
+				FFA3063C2B23699200975A44 /* AccountCreationController.swift */,
+				FFA3063E2B23DCB700975A44 /* ProfileController.swift */,
 			);
 			path = FooDi;
 			sourceTree = "<group>";
@@ -239,8 +245,10 @@
 				FFD442DA2B2107E40028F73A /* SignInController.swift in Sources */,
 				FFD442B12B1FC0BA0028F73A /* AppDelegate.swift in Sources */,
 				FFD442B32B1FC0BA0028F73A /* SceneDelegate.swift in Sources */,
+				FFA3063D2B23699200975A44 /* AccountCreationController.swift in Sources */,
 				FFD442DE2B2111080028F73A /* HomeController.swift in Sources */,
 				FFD442E62B21281C0028F73A /* FeedCell.swift in Sources */,
+				FFA3063F2B23DCB700975A44 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

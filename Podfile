@@ -9,5 +9,5 @@ target 'FooDi' do
   pod 'FirebaseAuth'
   pod 'Firebase/Analytics'
   pod 'Kingfisher', '~> 7.0' 
-
+  pod 'FirebaseFirestore'
 end
